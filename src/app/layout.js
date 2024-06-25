@@ -5,8 +5,8 @@ import '@manulife/mux/core/typography/assets/fonts/fonts.css';
 import 'src/styles/globals.css';
 
 export const metadata = {
-  title: 'MUX + Next.js Starter Template',
-  description: 'Next.js React Starter Template with MUX',
+  title: 'MUX + Next.js React Demo',
+  description: 'Next.js React Demo with MUX',
 };
 
 export default function RootLayout({ children }) {

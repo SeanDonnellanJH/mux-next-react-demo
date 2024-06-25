@@ -48,47 +48,11 @@ const Layout = ({ children, toggleLang }) => {
           <SideNav.Section id="personal">
             <SideNav.NavItem
               as="button"
-              id="item_1"
-              label="Item 1"
-              itemKey="/item/1"
-              icon={<Sunny />}
-            >
-              <SideNav.Dropdown
-                as="button"
-                id="item_1_1"
-                itemKey="/item/1_1"
-                label="Item 1.1"
-              >
-                <SideNav.SubNavItem
-                  as="button"
-                  id="item_1_1_1"
-                  itemKey="/item/1_1_1"
-                  label="Item 1.1.1"
-                  onClick={() => router.push('/item/1_1_1')}
-                />
-                <SideNav.SubNavItem
-                  as="button"
-                  id="item_1_1_2"
-                  itemKey="/item/1_1_2"
-                  label="Item 1.1.2"
-                  onClick={() => router.push('/item/1_1_2')}
-                />
-              </SideNav.Dropdown>
-              <SideNav.SubNavItem
-                as="button"
-                id="item_1_2"
-                itemKey="/item/1_2"
-                label="Item 1.2"
-                onClick={() => router.push('/item/1_2')}
-              />
-            </SideNav.NavItem>
-            <SideNav.NavItem
-              as="button"
-              id="item_2"
-              label="Item 2"
-              itemKey="/item/2"
+              id="our_demo"
+              label="Our Demo"
+              itemKey="/demo"
               icon={<PartlySunny />}
-              onClick={() => router.push('/item/2')}
+              onClick={() => router.push('/demo')}
             />
           </SideNav.Section>
         </SideNav>
