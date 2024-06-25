@@ -14,8 +14,12 @@ const Demo = () => {
     <Stack align="flex-start">
       <H1>Demo</H1>
       {showText && <P>Content for Demo goes here.</P>}
-      <Button onClick={() => handleOnClick(true)}>Show</Button>
-      <Button onClick={() => handleOnClick(false)}>Hide</Button>
+      <Button onClick={() => handleOnClick(true)} disabled={showText}>
+        Show
+      </Button>
+      <Button onClick={() => handleOnClick(false)} disabled={!showText}>
+        Hide
+      </Button>
     </Stack>
   );
 };
