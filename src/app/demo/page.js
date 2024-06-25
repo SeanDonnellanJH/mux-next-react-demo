@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Button, H1, P, Stack } from '@manulife/mux';
 
 const Demo = () => {
