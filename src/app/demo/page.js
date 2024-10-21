@@ -10,14 +10,15 @@ const Demo = () => {
   const handleOnClick = (value) => {
     if (value) {
       setText('You clicked the Show button.');
+      console.log(text); // Why won't this log the updated text?
     } else {
-      setText('');
+      setText('Text hidden.');
     }
     setShowText(value);
   };
 
   useEffect(() => {
-    setText('page loaded');
+    setText('Page loaded');
     setShowText(true);
   }, []);
 
