@@ -9,7 +9,7 @@ import {
   useSkipLinks,
   UtilityHeader,
 } from '@manulife/mux';
-import { PartlySunny, Sunny } from '@manulife/mux-cds-icons';
+import { PartlySunny } from '@manulife/mux-cds-icons';
 import { usePathname, useRouter } from 'next/navigation';
 
 const Layout = ({ children, toggleLang }) => {
